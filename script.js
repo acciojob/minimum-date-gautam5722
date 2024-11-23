@@ -1,5 +1,8 @@
 function minDate(dates) {
   //write you code here
+	dates.sort((a, b) => a - b);
+	let minDate = dates[0];  
+	return minDate.toDateString();
 }
 
 // Do not change the code
